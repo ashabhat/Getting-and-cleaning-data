@@ -1,8 +1,8 @@
 run_analysis <- function(){ 
   #download and unzip
-  #zip_URL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  #download.file(zip_URL, destfile = "./run_data.zip")
-  #unzip("run_data.zip", unzip = "internal")
+  zip_URL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  download.file(zip_URL, destfile = "./run_data.zip")
+  unzip("run_data.zip", unzip = "internal")
   
   
   #load the necessary libraries
